@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('static/futura-light.ttf') format('truetype'); /* Replace with the path to your font file */
+    /* Add additional formats if necessary, like woff or woff2 */
+    /* Example: */
+    /* src: url('fonts/custom-font.woff') format('woff'),
+           url('fonts/custom-font.woff2') format('woff2'); */
+  }
+
 body {
     background-color : rgba(49,51,56,255);
     margin: 0px;
@@ -5,10 +14,11 @@ body {
 }
 
 header {
-    font-family: Arial;
+    font-family: 'CustomFont', sans-serif;
     text-align: center;
     color : rgb(248, 247, 247);
     height: 20vh;
+    font-size: xx-large;
 }
 
 button {
@@ -37,7 +47,7 @@ button {
 }
 
 #menu-things {
-    font-family: Arial;
+    font-family: 'CustomFont', sans-serif;    
     color: white;
     margin: 0 auto;
 }
