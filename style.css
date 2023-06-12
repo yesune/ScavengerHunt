@@ -23,6 +23,7 @@ header {
 }
 
 .outline-container {
+    display: inline-block;
     border: 4px solid white;
     padding: 10px;
 }
