@@ -22,9 +22,7 @@ header {
     font-size: xx-large;
 }
 
-<style>
-    .outline-container {
-        border: 4px solid white;
-        padding: 10px;
-    }
-</style>
+.outline-container {
+    border: 4px solid white;
+    padding: 10px;
+}
